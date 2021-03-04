@@ -160,6 +160,14 @@ width: 100%;
 }
 .btn_newsletter {
     padding: 10px;
+    background-color: #557b97;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    border: 1px solid transparent;
+    font-weight: 600;
+    font-family: "Work Sans",sans-serif;
+    cursor: pointer;
 }
 @media (max-width:768px) {
     .join_us {
