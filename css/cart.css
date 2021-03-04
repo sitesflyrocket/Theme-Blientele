@@ -79,3 +79,128 @@ width: 100%;
     }
 }
 
+
+/* ////// Payments ///// */
+.fontawasome {
+    width: 50%;
+    text-align: end;
+}
+
+.links a {
+    margin: 10px;
+}
+.icons {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+.icons a {
+    text-decoration: none;
+    color: rgb(37, 40, 43);
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+.links {
+    width: 50%;
+    text-align: left;
+}
+
+.fa-cc-visa {
+    font-size: 30px;
+}
+@media (max-width:768px) {
+    .icons {
+        display: block;
+    }
+    .links {
+        width: 90%;
+        text-align: center;
+        margin: auto;
+    }
+    .links a {
+        margin: 7px;
+        font-size: 12px;
+    }
+    .fontawasome {
+        width: 90%;
+        text-align: center;
+   
+        margin: auto;
+        position: relative;
+        top: 30px;
+    }
+}
+/* ////// Payments End ///// */
+/* /////// Join Us /////// */
+.join_us {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+.link {
+    width: 50%;
+}
+.link a {
+    display: block;
+    text-decoration: none;
+    color: rgb(37, 40, 43);
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+.mailing {
+    width: 50%;
+}
+.mailing form {
+    display: flex;
+    justify-content: flex-end;
+}
+.info input {
+    width: 400px;
+    padding: 10px;
+}
+.btn_newsletter {
+    padding: 10px;
+}
+@media (max-width:768px) {
+    .join_us {
+        display: block;
+    }
+    .link a {
+        display: inline;
+        margin: 12px;
+
+    }
+    .link {
+            width: 90%;
+            text-align: center;
+            margin: auto;
+    }
+    .mailing {
+        width: 90%;
+        margin: auto;
+        margin-top: 40px;
+    }
+    .info input {
+        width: 100%;
+        padding: 10px;
+    }
+    .mailing form {
+        display: block;
+        justify-content: flex-end;
+    }
+    .btn_newsletter {
+        width: 100%;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .justify {
+        max-width: 400px;
+    margin: auto;
+    }
+ 
+
+  
+
+}
+/* /////// Join Us End /////// */
+
