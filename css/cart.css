@@ -1,3 +1,10 @@
+.cart a {
+    text-decoration: none;
+}
+.cart > a:hover {
+    opacity: 0.9;
+    text-decoration: none;
+}
 .wrap {
     margin-top: 100px;
 
@@ -40,7 +47,7 @@ font-size: 1.0625em;
     }
 .cart .cart_img  {
 /* width: 100%; */
-max-width: 200px;
+max-width: 350px;
 }
 .cart {
     display: inline-block;
@@ -50,7 +57,7 @@ max-width: 200px;
     /* border: 1px solid grey; */
     padding: 10px 10px 10px 10px;
     /* border-radius: 15px 15px 15px 15px; */
-    margin: 0px 10px;
+    margin: 0px 30px;
 }
 .grid {
     width: 85%;
