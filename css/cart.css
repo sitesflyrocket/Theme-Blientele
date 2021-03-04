@@ -71,8 +71,9 @@ max-width: 200px;
     padding: 24px;
     height: 400px;
 
+
     width: 100%;
-    background: pink;
+        background: antiquewhite;
     }
     .touch_side span {
         font-size: 10px;
