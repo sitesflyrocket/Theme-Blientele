@@ -96,6 +96,7 @@ width: 100%;
 .icons {
     display: flex;
     width: 90%;
+    height: 100px;
     margin: auto;
 }
 .icons a {
@@ -109,8 +110,9 @@ width: 100%;
     text-align: left;
 }
 
-.fa-cc-visa {
+.fontawasome i {
     font-size: 30px;
+    margin: 0px 5px;
 }
 @media (max-width:768px) {
     .icons {
