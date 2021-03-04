@@ -1,6 +1,9 @@
 .wrap {
     margin-top: 100px;
 }
+.grid {
+    margin-top: 50px;
+}
 .wrap h1 {
     text-align: center;
     font-family: "Work Sans",sans-serif;
@@ -51,12 +54,28 @@ width: 100%;
     display: flex;
     flex-flow: wrap;
 } 
+.touch_side {
+    display: none;
+}
+/* .touch_side {
+    text-align: center;
+    display: none!important;
+} */
 @media (max-width: 768px) {
-.grid {
+    .grid {
     display: block;
     background: var(--indigo);
     overflow: auto;
     white-space: nowrap;
     padding: 24px;
+    }
+    .touch_side span {
+        font-size: 10px;
+        color: slategray;
+    }
+    .touch_side {
+        display: block;
+        text-align: center;
+    }
 }
-}
+
