@@ -201,6 +201,15 @@ nav {
         width: auto;
     }
     .topbar {
-        display: none;
+      display: block;
+      margin-left: auto;
+      justify-content: center;
+      background: pink;
+    }
+    .topbar a {
+      margin: 0px;
+    }
+    .logo {
+      font-size: 1.00em;
     }
 }
