@@ -64,12 +64,14 @@ width: 100%;
     display: none!important;
 } */
 @media (max-width: 768px) {
+ 
     .grid {
     display: block;
     background: var(--indigo);
     overflow: auto;
     white-space: nowrap;
     padding: 24px;
+    height: 400px;
     }
     .touch_side span {
         font-size: 10px;
@@ -125,6 +127,7 @@ width: 100%;
     }
     .fontawasome {
         width: 90%;
+        height: 100px;
         text-align: center;
    
         margin: auto;
@@ -241,6 +244,12 @@ width: 100%;
     font-size: 16px;
     margin-top: 20px;
 }
+@media (max-width:768px) {
+    .text {
+        max-width: 300px;
+        margin-top: 50px;
+    }
+}
 /* /////// Texto Informativo End /////// */
 /* /////// View All /////// */
 .view_all{
@@ -258,6 +267,11 @@ width: 100%;
     border-radius: 2px;
     font-size: 14px;
     border: 1px solid transparent;
+}
+@media (max-width:768px) {
+    .view_all {
+        display: none;
+    }
 }
 /* /////// View All End /////// */
 
