@@ -147,8 +147,11 @@ width: 100%;
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
 }
+.justify p {
+    font-size: 17px;
+}
 .mailing {
-    width: 50%;
+    width: auto;
 }
 .mailing form {
     display: flex;
