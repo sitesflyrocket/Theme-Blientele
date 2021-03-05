@@ -63,6 +63,7 @@ max-width: 350px;
     width: 85%;
     display: flex;
     flex-flow: wrap;
+    margin: auto
 } 
 .touch_side {
     display: none;
