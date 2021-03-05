@@ -328,3 +328,45 @@ nav li a:hover {
   }
 }
 /* /////// Search CSS Import ///////// */
+
+
+
+.click_buy {
+
+
+  height: 50px;
+  background: red;
+  color: white;
+}
+.click_buy a {
+  margin: 0px 40px;
+  text-decoration: none;
+  color: white;
+  border: 1px solid aliceblue;
+  padding: 3px 14px;
+  border-radius: 50px;
+}
+.click_buy .margin {
+  display: flex;
+  justify-content: center;
+  top: 10px;
+    position: relative;
+}
+@media (max-width:768px) {
+  .click_buy {
+    height: 75px;
+    text-align: center;
+  }
+  .click_buy .margin {
+    display: block!important;
+  }
+  .click_buy a {
+    position: relative;
+    top: 6px;
+    background: springgreen;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+}
