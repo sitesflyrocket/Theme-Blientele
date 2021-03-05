@@ -141,7 +141,7 @@ max-width: 350px;
     }
     .links a {
         margin: 7px;
-        font-size: 12px;
+        font-size: 12px!important;
     }
     .fontawasome {
         width: 90%;
