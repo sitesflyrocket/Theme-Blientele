@@ -206,8 +206,10 @@ nav {
       margin-left: auto;
       justify-content: center;
       background: pink;
+      padding: 10px 0px 0px 0px;
     }
     .topbar a {
+     
       margin: 0px;
     }
     .logo {
