@@ -206,7 +206,7 @@ nav {
       display: block;
       margin-left: auto;
       justify-content: center;
-      background: pink;
+      background: bisque;
       padding: 10px 0px 0px 0px;
     }
     .topbar a {
@@ -320,7 +320,7 @@ nav li a:hover {
 }
 
 .down {
-  top: 78px;
+  top: 153px;
 }
 @media (max-width:768px) {
   .search h1 {
@@ -335,7 +335,7 @@ nav li a:hover {
 
 
   height: 50px;
-  background: red;
+  background: black;
   color: white;
 }
 .click_buy a {
@@ -345,6 +345,11 @@ nav li a:hover {
   border: 1px solid aliceblue;
   padding: 3px 14px;
   border-radius: 50px;
+  background: springgreen;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 .click_buy .margin {
   display: flex;
