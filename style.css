@@ -44,7 +44,7 @@ ul, li {
 }
 
 .settings {
-  position: absolute;
+  position: relative;
   right: 0;
 }
 
