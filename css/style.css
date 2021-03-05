@@ -10,13 +10,14 @@ body, html {
 }
 .logo
 {
-  font-size: 1.25em;
+  font-size: 20px;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 2px;
   font-family: "Work Sans",sans-serif;
     font-style: normal;
-    color: #3d4246;
+    color: #3d4246!important;
     text-decoration: none;
+    font-weight: 600;
 }
 .fa-rocket {
   color: black;
