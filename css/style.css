@@ -206,7 +206,7 @@ nav {
       display: block;
       margin-left: auto;
       justify-content: center;
-      background: bisque;
+      /* background: bisque; */
       padding: 10px 0px 0px 0px;
     }
     .topbar a {

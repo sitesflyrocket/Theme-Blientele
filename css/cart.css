@@ -81,7 +81,7 @@ max-width: 350px;
 
 
     width: 100%;
-        background: antiquewhite;
+      /*   background: antiquewhite; */
     }
     .touch_side span {
         font-size: 10px;
