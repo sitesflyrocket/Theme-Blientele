@@ -4,7 +4,7 @@ body {
 }
 .normal {
   display: flex;
-  width: 90%;
+  max-width: 1200px;
   margin: auto;
 }
 
@@ -18,9 +18,10 @@ body {
 /* //// Galerry Thumbs //// */
 
 img {
-  width: 50%;
-  display: block;
   margin: auto;
+  max-width: 300px;
+  display: block;
+
 }
 @media (max-width:768px) {
   img {
