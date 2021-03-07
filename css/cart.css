@@ -50,20 +50,22 @@ font-size: 1.0625em;
 max-width: 350px;
 }
 .cart {
+    width: auto;
     display: inline-block;
-    max-width: 300px; 
+    /* max-width: 300px;  */
    /*  height: 400px; */
-    margin-left: 0px;
+   /*  margin-left: 0px; */
     /* border: 1px solid grey; */
     padding: 10px 10px 10px 10px;
     /* border-radius: 15px 15px 15px 15px; */
-    margin: 0px 30px;
+    /* margin: 0px 30px; */
 }
 .grid {
-    width: 85%;
+    width: 100%;
     display: flex;
     flex-flow: wrap;
-    margin: auto
+    margin: auto;
+    justify-content: center;
 } 
 .touch_side {
     display: none;
