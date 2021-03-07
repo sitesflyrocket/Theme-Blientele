@@ -1,9 +1,11 @@
 /* Important for Div*/
-
+body {
+  background: pink;
+}
 .normal {
   display: flex;
   width: 90%;
-
+  margin: auto;
 }
 
 @media (max-width:767px) {
@@ -16,7 +18,14 @@
 /* //// Galerry Thumbs //// */
 
 img {
-  max-width: 100%;
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+@media (max-width:768px) {
+  img {
+    width: 100%;
+  }
 }
 
 .ir {
@@ -34,7 +43,7 @@ img {
   position: relative;
   padding: 2em;
   margin: 0 0 0.3333333333em;
-  background: #fff;
+  background:transparent;
 }
 
 .is-zoomed .gallery__hero {
@@ -73,7 +82,7 @@ img {
 
 .gallery__thumbs {
   text-align: center;
-  background: #fff;
+  background: transparent;
 }
 
 .gallery__thumbs a {
@@ -106,7 +115,6 @@ img {
   display: block;
   width: auto;
   margin: auto;
-
   z-index: 1;
 }
 
