@@ -6,6 +6,7 @@ body {
   display: flex;
   max-width: 1200px;
   margin: auto;
+  padding: 100px 10px;
 }
 
 @media (max-width:600px) {

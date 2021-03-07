@@ -163,6 +163,7 @@ max-width: 350px;
     display: flex;
     width: 90%;
     margin: auto;
+    padding: 39px 0px;
 }
 .link {
     width: 50%;
