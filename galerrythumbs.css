@@ -104,9 +104,9 @@ img {
 
 .gallery {
   display: block;
-  width: 60%;
+  width: auto;
   margin: auto;
-  justify-content: center;
+
   z-index: 1;
 }
 
