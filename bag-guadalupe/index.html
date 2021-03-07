@@ -3,14 +3,63 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Blientele for Kids">
-    <title>Blientele Store</title>
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon/favicon.ico">
-    <link rel="stylesheet" href="../galerrythumbs.css">
+    <title>Theme Blientele - Your Title</title>
+    <link rel="shortcut icon" href="../static/favicon/favicon.png" type="image/x-icon" />
+    <meta name="description" content="Your description her.">
+    <!-- Search AWS Import -->
+    <link rel='stylesheet' href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/45816/feather-cp.css'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <!-- Style CSS Import -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/cart.css">
+    <link rel="stylesheet" href="../css/galerrythumbs.css">
+    <!-- Kit Fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <!-- Nav Hamburger Cloudflare -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <!-- Font Import -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
+    <div class="click_buy">
+        <div class="margin">
+            <p> Loja online completa compre agora mesmo.</p>
+            <a href="#">Comprar Agora <i class="fas fa-shopping-cart"></i></a>
+        </div>
+    </div>
+    <!-- Nav -->
+    <div class="wrapper">
+        <div class="nav-overlay">
+            <a class="toggle-nav"><i class="fa fa-times"></i></a>
+            <a href="#">Home</a>
+            <a href="../catalog/index.html">Catalog</a>
+            <a href="#">Termos & Conditions</a>
+        </div>
+        <nav>
+            <div class="container nav">
+                <span><a class="logo" href="../index.html">Blientele</a></span>
+                <div class="topbar">
+                    <a class="login settings icon-search" href="#"></a>
+                    <a class="get" href="#"><i class="fas fa-shopping-bag"></i></a>
+                </div>
+                <div class="nav-items">
+                    <a class="nav_efeect" href="#">Home</a>
+                    <a class="nav_efeect" href="../catalog/index.html">Catalog</a>
+                    <a class="nav_efeect" href="#">Termos & Conditions</a>
+                    <a class="toggle-nav"><i class="fa fa-bars"></i></a>
+                </div>
+            </div>
+        </nav>
+        <div class="search">
+            <h1>Search:</h1><input type="search" />
+        </div>
+    </div>
     <div class="normal">
         <div class="gallery">
             <!-- Galerry Thumbs -->
@@ -57,10 +106,55 @@
             </div>
         </div>
     </div>
+    <!-- Join Us -->
+    <div class="join_us">
+        <div class="link">
+            <a href="#">Search</a>
+            <a href="#">Terms & Conditions</a>
+        </div>
+        <div class="mailing">
+            <div class="justify">
+                <form action="#" method="POST">
+                    <div class="info">
+                        <p>Join our mailing list</p>
+                        <input type="email" name="#" placeholder="Your Email">
+                    </div>
+                    <input class="btn_newsletter" type="submit" value="Subscribe">
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Payments -->
+    <div class="wrap">
+        <div class="icons">
+            <div class="links">
+                <a href="#">© 2021, Blientele</a>
+                <a href="#">Powered by Flyrocket</a>
+            </div>
+            <div class="fontawasome">
+                <a href="#"><i class="fab fa-cc-amex"></i></a>
+                <a href="#"><i class="fab fa-apple-pay"></i></a>
+                <a href="#"><i class="fab fa-cc-diners-club"></i></a>
+                <a href="#"><i class="fab fa-cc-discover"></i></a>
+                <a href="#"><i class="fab fa-google-pay"></i></a>
+                <a href="#"><i class="fab fa-cc-jcb"></i></a>
+                <a href="#"><i class="fab fa-cc-mastercard"></i></a>
+                <a href="#"><i class="fab fa-cc-visa"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hamburger of Nav Import Js -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src="../js/hamburger.js"></script>
+
+    <!-- Search Js -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="../js/search.js"></script>
 
     <!-- Gallery Thumbs Js -->
     <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
-    <script src="../galerrythumbs.js"></script>
+    <script src="../js/galerrythumbs.js"></script>
 </body>
 
 </html>
