@@ -117,6 +117,9 @@ nav {
  padding-top: 60px;
  text-align: center;
 }
+.active {
+  font-weight: 900;
+}
 .nav-overlay a {
  padding: 10px;
  text-decoration: none;
