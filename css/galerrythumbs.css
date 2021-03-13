@@ -1,7 +1,9 @@
 /* Important for Div*/
+
 body {
   background: pink;
 }
+
 .normal {
   display: flex;
   max-width: 1200px;
@@ -25,8 +27,8 @@ img {
   margin: auto;
   max-width: 100%;
   display: block;
-
 }
+
 @media (max-width:768px) {
   img {
     max-width: 100%;
@@ -48,7 +50,7 @@ img {
   position: relative;
   padding: 2em;
   margin: 0 0 0.3333333333em;
-  background:transparent;
+  background: transparent;
 }
 
 .is-zoomed .gallery__hero {
